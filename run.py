@@ -211,6 +211,7 @@ if input_path is not None:
     sleep(2)
     analyze_data(data_frame)
     sleep(2)
+    print(f"\nWrote insights to {output_file}")
 
 else:
     print("Please provide a valid input file.")
