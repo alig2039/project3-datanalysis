@@ -1,31 +1,31 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Analyze the Kaggle data science survey of 2021 Using Python
+This script is used to analyze and show insights on various trends in machine learning and data science over many geographical regions. The data used is got from the Kaggle 2021 Survey.
 
-Welcome alig2039,
+## About the data
+The data of the survey analyzed was downloaded as [kaggle_survey_2021_responses.csv](https://www.kaggle.com/competitions/kaggle-survey-2021/data).
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+## How I Analyzed this data
+The script was written using the Python programming language with a combination of many Python technologies like.
 
-## Reminders
+1. [Pandas](https://pandas.pydata.org/): This is a Python library for data analysis and manipulation.
+2. [Numpy](https://numpy.org/):This is a tool for scientific coputing using Python.
+3. [Colorama](https://super-devops.readthedocs.io/en/latest/misc.html): This is a Python tool for helping us to have colored text in the commandline.
+4. [ArgParse](https://docs.python.org/3/library/argparse.html): This is a Python standard library tool for helping us to parse command-line options, commands and sub-commands.
+5. [Time](https://docs.python.org/3/library/time.html): This is a tool that provides us with access to time-related functions.
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+Using all the above, I created a Python script that takes in an input CSV dataset, parses and analyzes the data and finally export the insights into a human readable form in a txt file. 
 
-## Creating the Heroku app
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+# How to run the code
+Run the code with the command below.
+```
+python3 run.py  <path_to_survey_data>  <path_to_output-file> ```
 
-1. `heroku/python`
-2. `heroku/nodejs`
+For example, 
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+```
+python3 run.py kaggle_survey_2021_responses.csv output.txt
+```
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+This runs the `run.py` file with `kaggle_survey_2021_responses.csv` as the input dataset. `output.txt` is the output file which which will contain the various important insights from the survey.
 
-Connect your GitHub repository and deploy as normal.
-
-## Constraints
-
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
------
-Happy coding!
