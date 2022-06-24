@@ -23,7 +23,7 @@ python3 run.py  <path_to_survey_data>  <path_to_output-file> ```
 
 ```
 For example,
-````
+```
 python3 run.py kaggle_survey_2021_responses.csv output.txt
 ```
 
