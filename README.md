@@ -17,6 +17,11 @@ Using all the above, I created a Python script that takes in an input CSV datase
 
 
 # How to run the code
+Install all project requirements with 
+```
+pip install -r requirements.txt #pip3 on linux
+```
+
 Run the code with the command below.
 ```
 python3 run.py  <path_to_survey_dataset>  <path_to_output-file> ```
