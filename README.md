@@ -19,7 +19,7 @@ Using all the above, I created a Python script that takes in an input CSV datase
 # How to run the code
 Run the code with the command below.
 ```
-python3 run.py  <path_to_survey_data>  <path_to_output-file> ```
+python3 run.py  <path_to_survey_dataset>  <path_to_output-file> ```
 
 ```
 For example,

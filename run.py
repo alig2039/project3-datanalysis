@@ -34,6 +34,9 @@ output_file = args.output_file
 
 
 def append_data_to_file(data):
+    """
+    Write data to a text file for the user to read.
+    """
     with open(output_file, "a+") as output_file_object:
         # put cursor to beginning of file
         output_file_object.seek(0)
@@ -62,13 +65,7 @@ def read_input_path(input_path):
     # which columns are present in the dataset
     for column in data_frame:
         count += 1
-
-    print(f"\n {Fore.BLUE} FOUND {count} columns in the dataset.")
     append_data_to_file(f"\nFOUND {count} columns in the dataset.")
-
-    # which rows are present
-    print(f"\n {Fore.BLUE} FOUND {data_frame.shape[0]} rows in dataset")
-    print("Done")
 
     return data_frame
 
@@ -85,23 +82,18 @@ def analyze_data(data_frame):
     # understanding who took part in the survey
     job_title_counts = data_setA["Job Title"].value_counts()
 
-    print(f"\n{Fore.WHITE} Which people took part in this survey?")
-    print(f"===============================================")
-    print(job_title_counts)
-
     append_data_to_file("\nWhich people took part in this survey?")
+    append_data_to_file("====================================================")
     append_data_to_file(str(job_title_counts))
 
     # understanding the most recommended to learn in 2021
-    print(f"\nWhat is the most recommended programming language?")
     recommended_langauge_value_counts = data_setA["Recommended"].value_counts()
 
     append_data_to_file("\nWhat is the most recommended programming language?")
+    append_data_to_file("====================================================")
     append_data_to_file(str(recommended_langauge_value_counts))
 
     # understanding the programming language each participant is using currently
-    print(f"\nWhat Programming language is each user using currenty?")
-
     Python = data_setA["Python"].count()
     R = data_setA["R"].count()
     SQL = data_setA["SQL"].count()
@@ -151,25 +143,29 @@ def analyze_data(data_frame):
     code_language = pd.DataFrame(labels)
     code_language = code_language.rename(columns={0: "Coding language"})
     code_language.insert(1, column="frequency", value=values)
-    print(code_language)
 
     append_data_to_file(
         "\nWhich programming language is each participant currently using?"
     )
+    append_data_to_file("====================================================")
     append_data_to_file(str(code_language))
 
-    print(f"Where are the participants from?")
     # convert value counts to data_setA
     cols = ["Country"]
     user_count = pd.DataFrame(data_setA[cols].value_counts())
     df_usercount = user_count.reset_index()
     df_usercount.columns = ["Country", "User_count"]
 
-    print(df_usercount)
+    # print(df_usercount)
+
+    append_data_to_file("\nWhere are all participants from?")
+    append_data_to_file("====================================================")
+    append_data_to_file(str(df_usercount))
 
     # classifying participants according to gender
-    print(f"\nHow many genders took part in the survey?")
-    print(data_setA["Gender"].value_counts())
+    append_data_to_file("\nParticipant count according to Gender")
+    append_data_to_file("====================================================")
+    append_data_to_file(f"{data_setA['Gender'].value_counts()}")
 
     print("Done")
 
