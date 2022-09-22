@@ -1,0 +1,82 @@
+READING survey.csv ...
+
+FOUND 369 columns in the dataset.
+
+Which people took part in this survey?
+====================================================
+Student                         6804
+Data Scientist                  3616
+Software Engineer               2449
+Other                           2393
+Data Analyst                    2301
+Currently not employed          1986
+Research Scientist              1538
+Machine Learning Engineer       1499
+Business Analyst                 968
+Program/Project Manager          849
+Data Engineer                    668
+Product Manager                  319
+Statistician                     313
+DBA/Database Engineer            171
+Developer Relations/Advocacy      99
+Name: Job Title, dtype: int64
+
+What is the most recommended programming language?
+====================================================
+Python        20213
+R              1445
+SQL            1338
+C               440
+C++             437
+Java            242
+MATLAB          215
+Other           176
+Julia           137
+Javascript      133
+None            111
+Bash             38
+Swift            15
+Name: Recommended, dtype: int64
+
+Which programming language is each participant currently using?
+====================================================
+   Coding language  frequency
+0           Python      21860
+1                R       5334
+2              SQL      10756
+3                C       4709
+4              C++       5535
+5             Java       4769
+6       Javascript       4332
+7            Julia        305
+8            Swift        242
+9             Bash       2216
+10          MATLAB       2935
+11            None        319
+12           Other       2575
+
+Where are all participants from?
+====================================================
+                     Country  User_count
+0                      India        7434
+1   United States of America        2650
+2                      Other        1270
+3                      Japan         921
+4                      China         814
+..                       ...         ...
+61                    Norway          45
+62                Kazakhstan          45
+63                   Algeria          44
+64                      Iraq          43
+65                  Ethiopia          43
+
+[66 rows x 2 columns]
+
+Participant count according to Gender
+====================================================
+Man                        20598
+Woman                       4890
+Prefer not to say            355
+Nonbinary                     88
+Prefer to self-describe       42
+Name: Gender, dtype: int64
