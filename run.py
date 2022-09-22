@@ -3,34 +3,12 @@ import pandas as pd
 from colorama import init, Fore
 from time import sleep
 import numpy as np
+import subprocess
 
 
-init()
+input_path = "survey.csv"
 
-# how to run the file with command-line arguments
-arg_parser = argparse.ArgumentParser(
-    description="Read and analyze data from a dataset", epilog="Enjoy the program 😊"
-)
-
-arg_parser.add_argument(
-    "path",
-    metavar="path",
-    type=str,
-    help="Path to CSV file",
-)
-arg_parser.add_argument(
-    "output_file",
-    metavar="output_file",
-    type=str,
-    help="A text file to export all insights",
-)
-
-
-args = arg_parser.parse_args()
-
-input_path = args.path
-
-output_file = args.output_file
+output_file = "results.txt"
 
 
 def append_data_to_file(data):
@@ -167,7 +145,19 @@ def analyze_data(data_frame):
     append_data_to_file("====================================================")
     append_data_to_file(f"{data_setA['Gender'].value_counts()}")
 
-    print("Done")
+    import time
+
+    print("Done analyzing the data from the survey. \n Do you want to show output in console?")
+    option = input("(y/n)? >>>>")
+    
+
+    if option == "y":
+        print("Printing insights to console.\n")
+        subprocess.run(["cat","results.txt"])
+        time.sleep(2)
+
+    else:
+        print("Continuing...")
 
 
 def rename_columns(data_frame):
