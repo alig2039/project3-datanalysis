@@ -147,7 +147,7 @@ def analyze_data(data_frame):
 
     import time
 
-    print("Done analyzing the data from the survey. \n Do you want to show output in console?")
+    print("Done analyzing the data from the survey. \nDo you want to show output in console?")
     option = input("(y/n)? >>>>")
     
 
