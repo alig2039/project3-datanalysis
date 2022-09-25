@@ -28,6 +28,14 @@ The reason why I chose this dataset is because of its diverse nature and it was 
 5. Majority of the participants were male.
 
 
+## Tools used in the project
+Here are the thir-party  Python tools that were used in the project
+1. Pandas: This is a Python library for data analysis and manipulation.
+2. Numpy:This is a tool for scientific coputing using Python.
+3. Colorama: This is a Python tool for helping us to have colored text in the commandline.
+4. Time: This is a tool that provides us with access to time-related functions.
+
+
 ## How the program works
 By running the scipt `run.py`, we call the various functions that parse the CSV data, clean it up and then obtain insights. The insights are then written to a text file called `results.txt`.
 
@@ -36,8 +44,3 @@ To run the file,
 python3 run.py
 ```
 
-## Tools used in the project
-1. Pandas: This is a Python library for data analysis and manipulation.
-2. Numpy:This is a tool for scientific coputing using Python.
-3. Colorama: This is a Python tool for helping us to have colored text in the commandline.
-4. Time: This is a tool that provides us with access to time-related functions.
