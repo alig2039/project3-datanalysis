@@ -67,6 +67,10 @@ The project was deployed to Heroku using the following steps...
 ### Locally
 1. Add a requirements.txt to you project using ```pip3 install -r requirements.txt```
 <h2 align="center"><img src="pics/4.png"></h2>
+The presence of this file is important as Heroku will read the Procfile each time the application is deployed and then install dependecies from this file.
+using the first command.
+<h2 align="center"><img src="pics/5.png"></h2>
+
 
 
 ## Credits
