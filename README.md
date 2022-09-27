@@ -6,7 +6,7 @@ Kaggle is a professional community for data scientists and machine learning engi
 
 The questions that we answered as part of the analysis were given in the Data analysis. This readme.md file explains our project.
 
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
+<h2 align="center"><img src="pics/proj.png"></h2>
 
 ## User Experience (UX)
 
