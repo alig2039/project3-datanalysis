@@ -57,7 +57,7 @@ The project was deployed to Heroku using the following steps...
 
 ### 1. Locally
 After development, changes would be commited to the local Git repository. All the project components were kept as provided. Project requirements were kept in a ```requirements.txt ``` file that is neccessary to help install them during the deployment phase.
-<h2 align="center"><img src="pics/.png"></h2>
+<h2 align="center"><img src="pics/5.png" alt="image"></h2>
 
 
 
