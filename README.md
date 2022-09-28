@@ -61,7 +61,7 @@ After development, changes would be commited to the local Git repository. All th
 
 Project requirements were kept in a ```requirements.txt ``` file that is neccessary to help install them during the deployment phase.
 
-The sample data is also added to Git as ```survey.csv```
+The sample data is also added to Git as ```survey.csv``` which can be downloaded from [here](https://www.kaggle.com/competitions/kaggle-survey-2021/data)
 
 Changes would be commited to the remote repository. on Github.
 
