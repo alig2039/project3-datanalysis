@@ -93,7 +93,7 @@ Then in Gitpod, added were the required [buildpacks](https://devcenter.heroku.co
 A login to the CLI via the web browser
 
 <h2 align="center"><img src="pics/final7.png"></h2>
-Setting the the builpack for NodeJS was done wit the command ```heroku buildpacks:set heroku/nodejs''
+Setting the the builpack for NodeJS was done wit the command ``` heroku buildpacks:set heroku/nodejs ```
 
 Adding the Python buildpack 
 
