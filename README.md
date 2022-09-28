@@ -11,15 +11,15 @@ The questions that we answered as part of the analysis were given in the Data an
 ## User Experience (UX)
 
 -   ### Design
-    -   #### Colour Scheme
-        -   The two main colours used are black, and white.
-    -   #### Typography
-        -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+    -   Since the application is a commandline application, it has a simple User interface consisting of black background and white text.
+
+    - The font of the interface is monospace.
 
         
 ## Features
 
--   Runs in a commandline
+- Runs in a commandline.
+- Prompts a user for input wen needed
 
 
 ## Technologies Used
@@ -33,7 +33,7 @@ The questions that we answered as part of the analysis were given in the Data an
 
 1. [Pandas](https://pandas.pydata.org/)
     - .This is a Python library for data analysis and manipulation. It is what was used to read the CSV survey data and covert it into dataframes which could be easy to analyze.
-2. [NUmpy](https://numpy.org/)
+2. [Numpy](https://numpy.org/)
     - This is a tool for scientific coputing using Python. This helps us group our data into arrays, we also used it to access functions that were necessary for making decisions of attributes in our dataframes.
 3. [Time](https://fonts.google.com/)
     - This module provides various time-related functions.
