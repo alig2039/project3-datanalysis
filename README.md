@@ -26,15 +26,16 @@ The questions that we answered as part of the analysis were given in the Data an
 
 ### Languages Used
 
--   [Python](https://en.wikipedia.org/wiki/HTML5)
+-   [Python](https://www.python.org/)
+This is a general purpose programming language that was used to build the commandline application.
 
 
 ### Frameworks, Libraries & Programs Used
 
 1. [Pandas](https://pandas.pydata.org/)
-    - .This is a Python library for data analysis and manipulation. It is what was used to read the CSV survey data and covert it into dataframes which could be easy to analyze.
+    - This is a Python library for data analysis and manipulation. It is what was used to read the CSV survey data and covert it into dataframes which could be easy to analyze.
 2. [Numpy](https://numpy.org/)
-    - This is a tool for scientific coputing using Python. This helps us group our data into arrays, we also used it to access functions that were necessary for making decisions of attributes in our dataframes.
+    - This is a tool for scientific computing using Python. This helps us group our data into arrays, we also used it to access functions that were necessary for making decisions of attributes in our dataframes.
 3. [Time](https://fonts.google.com/)
     - This module provides various time-related functions.
 4. [Git](https://git-scm.com/)
@@ -48,24 +49,14 @@ The questions that we answered as part of the analysis were given in the Data an
 
 ## Deployment
 
-### Heroku
+The project was deploying on Heroku. The steps for the deployment are demonstrarted in three ways.
+
+
 
 The project was deployed to Heroku using the following steps...
 
-1. Create a [Heroku account](https://signup.heroku.com/login).
-2. Create a Heroku app.
-<h3 align="center"><img src="pics/1.png"></h3>
-3. Go to the Deploy tab and connect the app to Github. This will be helpful for automatic deploys.
-<h2 align="center"><img src="pics/2.png"></h2>
-4. Then You can select the Github repository to connect to the Heroku app.
-<h2 align="center"><img src="pics/3.png"></h2>
-
-
-### Locally
-1. Add a requirements.txt to you project using ```pip3 install -r requirements.txt```
-<h2 align="center"><img src="pics/4.png"></h2>
-The presence of this file is important as Heroku will read the Procfile each time the application is deployed and then install dependecies from this file.
-using the first command.
+### 1. Locally
+After development, changes would be commited to the local Git repository. All the project components were kept as provided. Project requirements were kept in a ```requirements.txt ``` file that is neccessary to help install them during the deployment phase.
 <h2 align="center"><img src="pics/5.png"></h2>
 
 
