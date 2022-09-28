@@ -72,18 +72,20 @@ All the changes were backed up on a remote git [repository](https://github.com/a
 ### Heroku
 The final deployment is done from Heroku. Here is a summary with illustrations of how this was done.
 
-1. The first step was to create a Heroku application as shown below.
+The first step was to create a Heroku application as shown below.
 <h2 align="center"><img src="pics/final1.png"></h2>
-Next
+Giving the app a name
 <h2 align="center"><img src="pics/final2.png"></h2>
 
 
-2. After Creating the app, the next thing to do was connect to the github repository and enable automatic deploys.
+After Creating the app, the next thing to do was connect to the github repository and enable automatic deploys.
 <h2 align="center"><img src="pics/final3.png"></h2>
-Next
+Successful connection to GitHub
 <h2 align="center"><img src="pics/final4.png"></h2>
-Next 
+Automatic Deploys from the main branch
 <h2 align="center"><img src="pics/final5.png"></h2>
+
+
 
 
 
