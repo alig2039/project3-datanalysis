@@ -74,16 +74,29 @@ The final deployment is done from Heroku. Here is a summary with illustrations o
 
 The first step was to create a Heroku application as shown below.
 <h2 align="center"><img src="pics/final1.png"></h2>
-Giving the app a name
-<h2 align="center"><img src="pics/final2.png"></h2>
 
+ Giving the app a name
+<h2 align="center"><img src="pics/final2.png"></h2>
 
 After Creating the app, the next thing to do was connect to the github repository and enable automatic deploys.
 <h2 align="center"><img src="pics/final3.png"></h2>
+
 Successful connection to GitHub
 <h2 align="center"><img src="pics/final4.png"></h2>
+
 Automatic Deploys from the main branch
 <h2 align="center"><img src="pics/final5.png"></h2>
+
+Then in Gitpod, added were the required [buildpacks](https://devcenter.heroku.com/articles/buildpacks) for the app to run. These were [heroku/nodejs](https://devcenter.heroku.com/articles/nodejs-support) and the [heroku/python](https://devcenter.heroku.com/articles/python-support). All these were done using the Heroku CLI.
+
+<h2 align="center"><img src="pics/final6.png"></h2>
+A login to the CLI via the web browser
+
+<h2 align="center"><img src="pics/final7.png"></h2>
+Setting the the builpack for NodeJS was done wit the command ```heroku buildpacks:set heroku/nodejs''
+
+Adding the Python buildpack 
+
 
 
 
