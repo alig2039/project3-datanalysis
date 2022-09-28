@@ -56,8 +56,36 @@ The project was deploying on Heroku. The steps for the deployment are demonstrar
 The project was deployed to Heroku using the following steps...
 
 ### 1. Locally
-After development, changes would be commited to the local Git repository. All the project components were kept as provided. Project requirements were kept in a ```requirements.txt ``` file that is neccessary to help install them during the deployment phase.
-<h2 align="center"><img src="pics/5.png" alt="image"></h2>
+All project development was done using [Gitpod](https://gitpod.io)
+After development, changes would be commited to the local Git repository. All the project components were kept as provided in the template.
+
+Project requirements were kept in a ```requirements.txt ``` file that is neccessary to help install them during the deployment phase.
+
+The sample data is also added to Git as ```survey.csv```
+
+Changes would be commited to the remote repository. on Github.
+
+### GitHub
+All the changes were backed up on a remote git [repository](https://github.com/alig2039/project3-datanalysis) on GitHub. This is necessary as deployment will be done from Heroku using the repository.
+
+
+### Heroku
+The final deployment is done from Heroku. Here is a summary with illustrations of how this was done.
+
+1. The first step was to create a Heroku application as shown below.
+<h2 align="center"><img src="pics/final1.png"></h2>
+Next
+<h2 align="center"><img src="pics/final2.png"></h2>
+
+
+2. After Creating the app, the next thing to do was connect to the github repository and enable automatic deploys.
+<h2 align="center"><img src="pics/final3.png"></h2>
+Next
+<h2 align="center"><img src="pics/final4.png"></h2>
+Next 
+<h2 align="center"><img src="pics/final5.png"></h2>
+
+
 
 
 
