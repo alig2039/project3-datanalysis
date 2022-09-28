@@ -41,13 +41,10 @@ The questions that we answered as part of the analysis were given in the Data an
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 5. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-6. [Heroku:](https://www.adobe.com/ie/products/photoshop.html)
+6. [Heroku:](https://heroku.com)
     - This is the platform that gave us the environment for easy deployment.
 
 
-### Known Bugs
-
-- Since it is a CLI application, it can only run within a terminal environment.
 
 ## Deployment
 
@@ -77,11 +74,11 @@ using the first command.
 
 ### Code
 
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
+-   [Gitpod](https://gitpod.io): The development of this project was made easy. They provided a really efficient workspace for developed this Python based application.
 
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+-   [Kaggle](https://kaggle.com): Most of te data analysis knowledge that was used to develop this application was inspired by the work of the brilliant data scientists on the platform.
 
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+-   [Python](https://python.org/) : The programming language that made building thhe application easier. With a wide variety of in-built standard library tools, the applicationn development was made easy
 
 ### Content
 
